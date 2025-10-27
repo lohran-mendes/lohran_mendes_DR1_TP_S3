@@ -1,0 +1,7 @@
+.Question_14_15_16 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 30px;
+}

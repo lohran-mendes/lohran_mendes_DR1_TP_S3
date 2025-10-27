@@ -1,0 +1,37 @@
+.ContadorComponent {
+  background: cadetblue;
+  min-height: auto;
+  padding: 30px 40px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  color: white;
+  & button {
+    border-radius: 4px;
+    border: none;
+    background-color: white;
+    color: cadetblue;
+    font-weight: bolder;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0;
+    cursor: pointer;
+    &:hover {
+      background-color: rgb(222, 231, 231);;
+    }
+  }
+
+}
+
+.ContadorComponent .contador {
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 15px 20px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
