@@ -1,0 +1,28 @@
+.Question_12_13 {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.Question_12_13 .card {
+  background-color: rgb(189, 216, 240);
+  min-height: 128px;
+  padding: 20px 30px;
+  border-radius: 4px;
+  margin-top: -200px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 280px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    & .container-input {
+      display: flex;
+      gap: 5px;
+    }
+    & button{
+      height: 28px;
+    }
+}

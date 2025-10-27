@@ -11,6 +11,8 @@ import Question_06 from "./question-06/question-06.jsx";
 import Question_07 from "./question-07/question-07.jsx";
 import Question_08_09 from "./question-08-09/question-08-09.jsx";
 import Question_10_11 from "./question-10-11/question-10-11.jsx";
+import Question_12_13 from "./question-12-13/question-12-13.jsx";
+import Question_14_15_16 from "./question-14-15-16/question-14-15-16.jsx";
 
 createRoot(document.getElementById("root")).render(
   <BrowserRouter>
@@ -25,6 +27,8 @@ createRoot(document.getElementById("root")).render(
       <Route path="/question_07" element={<Question_07 />} />
       <Route path="/question_08_09" element={<Question_08_09 />} />
       <Route path="/question_10_11" element={<Question_10_11 />} />
+      <Route path="/question_12_13" element={<Question_12_13 />} />
+      <Route path="/question_14_15_16" element={<Question_14_15_16 />} />
     </Routes>
   </BrowserRouter>
 );
